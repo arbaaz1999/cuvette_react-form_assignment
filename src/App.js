@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box, Grid } from '@mui/material'
+import React from 'react'
+import { Banner, Form } from './components'
 
-function App() {
+const App = () => {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Box sx={{
+        width: '80%',
+        margin: '0 auto',
+        height: '100vh',
+        padding: '0',
+      }}>
+        <Grid container columnSpacing={{ xs: 2, sm: 2, md: 5 }} height='100%' alignItems='center'>
+          <Grid item xs={12} md={6} sm={12}>
+            <Banner />
+          </Grid>
+          <Grid item xs={12} md={6} sm={12}>
+            <Form />
+          </Grid>
+        </Grid>
+      </Box>
+    </>
+  )
 }
 
-export default App;
+export default App
