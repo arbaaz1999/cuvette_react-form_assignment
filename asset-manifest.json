@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cuvette_react-form_assignment/static/css/main.bd0aa2ae.css",
+    "main.js": "/cuvette_react-form_assignment/static/js/main.63705e4d.js",
+    "index.html": "/cuvette_react-form_assignment/index.html",
+    "main.bd0aa2ae.css.map": "/cuvette_react-form_assignment/static/css/main.bd0aa2ae.css.map",
+    "main.63705e4d.js.map": "/cuvette_react-form_assignment/static/js/main.63705e4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd0aa2ae.css",
+    "static/js/main.63705e4d.js"
+  ]
+}
